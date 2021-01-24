@@ -1,5 +1,6 @@
 import Header from "../header/Header";
 import People from "../People/People";
+import Starships from "../starships/Starships";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
         <Header />
         <People />
+        <Starships />
     </div>
   );
 }
